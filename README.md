@@ -1,4 +1,4 @@
-# Food Suggestion Website
+# Cookit
 
 This is a simple website that suggests food using the MealDB API (https://www.themealdb.com/).
 
