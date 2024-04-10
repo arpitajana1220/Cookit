@@ -1,0 +1,100 @@
+/* styles.css */
+
+/* Basic reset */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.marquee{
+    background-color: #fcfcfc;
+    color: #199b93;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+/* Header styles */
+header {
+    background-color: #199b93;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Main section styles */
+main {
+    padding: 20px;
+}
+
+/* Button styles */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #199b93;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1d857e;
+}
+
+/* Meal display styles */
+/* .meal {
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.meal img {
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+.meal h2 {
+    margin-top: 0;
+}
+
+.meal ul {
+    list-style: none;
+    padding: 0;
+}
+
+.meal ul li {
+    margin-bottom: 5px;
+} */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Meal display styles */
+.meal {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.meal img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px; /* Center the image horizontally */
+}
+
+.meal ul {
+    list-style:none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.meal ul li {
+    margin-bottom: 5px;
+}
+
+/* Button styles */
+button {
+    margin-top: 20px;
+}
